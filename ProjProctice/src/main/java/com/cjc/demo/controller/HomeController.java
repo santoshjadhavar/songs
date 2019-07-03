@@ -24,7 +24,8 @@ public class HomeController {
 
 	@RequestMapping(value="savedata",method=RequestMethod.POST,produces="application/json",consumes="application/json")
 	public void m1(@RequestBody Registration r) {
-		System.out.println("hii");
+		
+		
 		ser.saveData(r);
 		
 		
